@@ -1,1 +1,9 @@
 @import './var';
+
+a {
+  text-decoration: none;
+
+  &:focus, &:hover {
+    color: rgba(25,137,250,.85);
+  }
+}

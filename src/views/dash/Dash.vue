@@ -1,5 +1,11 @@
 <template>
-  <div>Dash</div>
+  <div>
+    <div style="width: 1000px; height: 500px;display: flex; flex-direction: column;border: 1px solid red;align-items: center">
+      <div class="it" style="align-self: flex-end">1</div>
+      <div class="it"></div>
+      <div class="it"></div>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -16,3 +22,11 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+.it {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ccc;
+}
+</style>
