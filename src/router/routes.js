@@ -37,15 +37,15 @@ const layoutPages = [{
 }]
 
 const outPages = [{
-  path: '/login',
-  name: 'login',
+  path: '/auth/login',
+  name: 'auth.login',
   component: () => import('@/views/auth/Login.vue')
 }]
 
 const errorPages = [{
   path: '*',
   name: '404',
-  component: () => import('@/views/auth/Login.vue')
+  component: () => import('@/views/error/404.vue')
 }]
 
 export default [
