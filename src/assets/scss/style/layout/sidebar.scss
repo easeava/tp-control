@@ -1,0 +1,45 @@
+$__menu-height: 45px;
+
+.sidebar {
+  background-color: #f5f7fa;
+  border-right: 1px solid #e6e9f0;
+  transition: all .15s;
+  // overflow: hidden;
+
+  .el-menu {
+    border: none;
+    height: 100%;
+    width: 100%;
+  }
+
+  .el-submenu__title {
+    height: $__menu-height;
+    line-height: $__menu-height;
+  }
+
+  .el-menu-item {
+    height: $__menu-height;
+    padding: 0 12px !important;
+    margin-bottom: 5px;
+    line-height: $__menu-height;
+    color: #8d9199;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    font-size: 14px;
+    white-space: nowrap;
+
+    .el-icon-setting {
+      margin-right: 14px;
+    }
+
+    &:hover, &.is-active {
+      color: #2f3033;
+      font-weight: 500;
+      background-color: #e1edfa !important;
+    }
+
+    &.is-active {
+      border-left-color: #008afe;
+    }
+  }
+}

@@ -23,7 +23,6 @@
 
 <script>
 import NProgress from 'nprogress'
-import CanvasNest from 'canvas-nest.js'
 
 export default {
   name: 'login',
@@ -33,12 +32,7 @@ export default {
         name: '',
         password: ''
       },
-      loading: false,
-      config: {
-        count: 99,
-        opacity: 0.7,
-        zIndex: -1
-      }
+      loading: false
     }
   },
   methods: {
@@ -53,18 +47,7 @@ export default {
           name: 'dash'
         })
       }, 1000)
-    },
-    createCanvasNest () {
-      const element = document.querySelector('.canvas')
-      this.cn = new CanvasNest(element, this.config)
     }
-  },
-  mounted () {
-    console.log(123)
-    this.createCanvasNest()
-  },
-  beforeDestroy () {
-    this.cn.destroy()
   }
 }
 </script>

@@ -15,8 +15,10 @@
     "element-ui": "^2.4.11",
     "flex.box": "^3.4.4",
     "nprogress": "^0.2.0",
+    "perfect-scrollbar": "^1.4.0",
     "store2": "^2.7.1",
     "vue": "^2.5.17",
+    "vue-perfect-scrollbar": "^0.1.0",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
   },

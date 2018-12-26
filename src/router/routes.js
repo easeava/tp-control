@@ -1,3 +1,5 @@
+import example from './modules/example'
+
 const meta = {
   auth: true
 }
@@ -51,5 +53,6 @@ const errorPages = [{
 export default [
   ...layoutPages,
   ...outPages,
-  ...errorPages
+  ...errorPages,
+  example
 ]

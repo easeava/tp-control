@@ -5,7 +5,7 @@ body {
   height: 100%;
   font-size: 14px; 
   // font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  // font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   // font-family: 'Open Sans', 'Helvetica Neue', 'Hiragino Sans GB', 'LiHei Pro', Arial, sans-serif;
 
   #app {
@@ -15,10 +15,16 @@ body {
 }
 
 * {
-  font-weight: 300;
+  // font-weight: 400;
+  font-size: 14px;
+  font-family: core_sans_n45_regular,"Avenir Next","Helvetica Neue",Helvetica,Arial,"PingFang SC","Source Han Sans SC","Hiragino Sans GB","Microsoft YaHei","WenQuanYi MicroHei",sans-serif;
 }
 
 .block {
   display: block;
   width: 100%;
 }
+
+@import './transition.scss';
+@import './perfect-scrollbar.scss';
+@import './layout/index.scss';

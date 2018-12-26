@@ -1,0 +1,8 @@
+.container {
+  overflow: hidden;
+  position: relative;
+
+  .el-container {
+    position: absolute;
+  }
+}
